@@ -1,4 +1,4 @@
 # Mongodb-python
 Using Python and Mongodb for document storage application
 
-# Script to check mongodb connection updated
+1. Script to check mongodb connection updated
