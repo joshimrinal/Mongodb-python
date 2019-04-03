@@ -1,0 +1,18 @@
+create a folder LOG inside the data folder
+
+then create a empty file mongod.log
+
+create a file Mongo.cfg and put this text in it
+
+systemLog:
+    destination: file
+    path: dD:\Data\Log\mongod.log
+storage:
+    dbPath: D:\Data\db
+
+
+once this is done then run CMD as administrator
+
+navigate to the bin folder of the mongo installation files and then run this command with the details like logpath and dbpath as per your configuration
+
+mongod --dbpath "D:\Data\db" --logpath "D:\Data\Log\mongod.log" --install --serviceName "MongoDB"
